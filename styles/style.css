@@ -3,6 +3,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* header and nav styles */
+
 .header {
     width: 1920px;
     height: 1322px;
@@ -57,6 +60,15 @@ nav ul {
     margin-top: 32px;
 }
 
+.section nav>img {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+}
+
+
+/* button style */
+
 .btn {
     background: #FF900E;
     color: white;
@@ -69,11 +81,8 @@ nav ul {
     margin: 32px 400px 32px 650px;
 }
 
-.section nav>img {
-    width: 1440px;
-    height: 700px;
-    border-radius: 8px;
-}
+
+/* blog styles */
 
 .blog-up {
     display: flex;
@@ -127,6 +136,9 @@ nav ul {
     margin-top: 32px;
 }
 
+
+/* button style */
+
 .btn1 {
     color: white;
     width: 180px;
@@ -136,6 +148,9 @@ nav ul {
     border: none;
     margin-top: 20px;
 }
+
+
+/* Feature styles */
 
 .feature {
     display: flex;
@@ -151,6 +166,7 @@ nav ul {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
+    margin-bottom: 36px;
 }
 
 .feature-one-left p {
@@ -159,7 +175,7 @@ nav ul {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .feature-img img {
@@ -202,6 +218,9 @@ nav ul {
     align-items: center;
 }
 
+
+/* botton style */
+
 .btn2 {
     position: absolute;
     width: 342px;
@@ -225,6 +244,9 @@ nav ul {
     text-align: center;
     color: #FFFFFF;
 }
+
+
+/* some facts styles */
 
 .some-award {
     display: flex;
@@ -291,6 +313,9 @@ nav ul {
     margin-top: 15px;
 }
 
+
+/* sponspors styles */
+
 .sponspor-title {
     text-align: center;
     font-weight: 700;
@@ -320,6 +345,9 @@ nav ul {
     padding: 44px 60px;
 }
 
+
+/* footer styles */
+
 footer {
     height: 100px;
     background: #FFF4E7;
@@ -334,6 +362,9 @@ footer {
     color: #424242;
     padding-top: 40px;
 }
+
+
+/* media querry or responsive styles */
 
 @media only screen and (max-width: 576px) {
     .header nav {
